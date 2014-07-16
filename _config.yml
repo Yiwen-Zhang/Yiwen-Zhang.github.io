@@ -2,11 +2,20 @@
 title: Yiwen Zhang
 email: your-email@domain.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-baseurl: "/mysite"
-url: "http://yourdomain.com"
+baseurl: "http://yiwen-zhang.github.io/"
+url: "http://yiwen-zhang.github.io/"
 twitter_username: jekyllrb
 github_username:  jekyll
+
+# GitHut
+pygments: true
+github: [Repository metadata]
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Setting
+safe: true
+lsi: false
+#source: your top-level directory

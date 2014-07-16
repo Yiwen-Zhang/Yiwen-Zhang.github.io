@@ -1,2 +1,2 @@
-source 'http://github.ncsu.edu/yzhang31'
+source 'https://rubygems.org'
 gem 'github-pages'
