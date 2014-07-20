@@ -3,10 +3,10 @@
   <channel>
     <title>Yiwen Zhang</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
-    <link>http://yiwen-zhang.github.io/http://yiwen-zhang.github.io//</link>
-    <atom:link href="http://yiwen-zhang.github.io/http://yiwen-zhang.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 20 Jul 2014 09:42:07 -0400</pubDate>
-    <lastBuildDate>Sun, 20 Jul 2014 09:42:07 -0400</lastBuildDate>
+    <link>http://yiwen-zhang.github.io//</link>
+    <atom:link href="http://yiwen-zhang.github.io//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 20 Jul 2014 09:49:36 -0400</pubDate>
+    <lastBuildDate>Sun, 20 Jul 2014 09:49:36 -0400</lastBuildDate>
     <generator>Jekyll v2.1.1</generator>
     
   </channel>
