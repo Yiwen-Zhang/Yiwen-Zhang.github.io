@@ -16,6 +16,6 @@ markdown: kramdown
 permalink: pretty
 
 # Setting
-safe: true
-lsi: false
+#safe: true
+#lsi: false
 #source: your top-level directory
