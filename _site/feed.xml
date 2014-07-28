@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yiwen Zhang</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
-    <link>http://yiwen-zhang.github.io//</link>
-    <atom:link href="http://yiwen-zhang.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 20 Jul 2014 09:49:36 -0400</pubDate>
-    <lastBuildDate>Sun, 20 Jul 2014 09:49:36 -0400</lastBuildDate>
+    <title>Coding Goodies</title>
+    <description></description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 27 Jul 2014 22:22:44 -0400</pubDate>
+    <lastBuildDate>Sun, 27 Jul 2014 22:22:44 -0400</lastBuildDate>
     <generator>Jekyll v2.1.1</generator>
     
   </channel>
