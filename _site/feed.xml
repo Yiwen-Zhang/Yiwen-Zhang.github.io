@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Coding Goodies</title>
+    <title></title>
     <description></description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 30 Jul 2014 23:06:18 -0400</pubDate>
-    <lastBuildDate>Wed, 30 Jul 2014 23:06:18 -0400</lastBuildDate>
+    <link>http://yiwen-zhang.github.io//</link>
+    <atom:link href="http://yiwen-zhang.github.io//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 10 Aug 2014 22:52:28 -0400</pubDate>
+    <lastBuildDate>Sun, 10 Aug 2014 22:52:28 -0400</lastBuildDate>
     <generator>Jekyll v2.1.1</generator>
     
   </channel>
