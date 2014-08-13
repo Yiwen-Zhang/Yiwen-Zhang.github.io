@@ -1,0 +1,6 @@
+﻿---
+title: "Have Fun with Logging"
+layout: post
+tags:
+- python
+---

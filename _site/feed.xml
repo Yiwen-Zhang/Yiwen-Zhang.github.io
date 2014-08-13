@@ -5,9 +5,25 @@
     <description></description>
     <link>http://yiwen-zhang.github.io//</link>
     <atom:link href="http://yiwen-zhang.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 10 Aug 2014 23:00:07 -0400</pubDate>
-    <lastBuildDate>Sun, 10 Aug 2014 23:00:07 -0400</lastBuildDate>
+    <pubDate>Tue, 12 Aug 2014 23:31:33 -0400</pubDate>
+    <lastBuildDate>Tue, 12 Aug 2014 23:31:33 -0400</lastBuildDate>
     <generator>Jekyll v2.1.1</generator>
+    
+      <item>
+        <title>Pythonlogging</title>
+        <description>&lt;p&gt;﻿—
+title: “Have Fun with Logging”
+layout: post
+tags:
+- python
+—&lt;/p&gt;
+</description>
+        <pubDate>Tue, 12 Aug 2014 00:00:00 -0400</pubDate>
+        <link>http://yiwen-zhang.github.io//2014/08/12/PythonLogging.html</link>
+        <guid isPermaLink="true">http://yiwen-zhang.github.io//2014/08/12/PythonLogging.html</guid>
+        
+        
+      </item>
     
   </channel>
 </rss>
