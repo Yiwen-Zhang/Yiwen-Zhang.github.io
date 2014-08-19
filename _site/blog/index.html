@@ -7,7 +7,7 @@
     <title>Yiwen-Zhang.github.io/blog</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="">
-    <link rel="canonical" href="http://yiwen-zhang.github.io//blog.html">
+    <link rel="canonical" href="http://yiwen-zhang.github.io//blog/">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/main.css">
@@ -21,7 +21,7 @@
 
   <div class="wrap">
 
-    <a class="site-title" href="/"></a>
+    <a class="site-title" href="/">Yiwen Zhang</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -37,15 +37,15 @@
       </a>
       <div class="trigger">
         
-          <a class="page-link" href="/blog.html">Yiwen-Zhang.github.io/blog</a>
+          <a class="page-link" href="/blog/">Yiwen-Zhang.github.io/blog</a>
         
           
         
-          <a class="page-link" href="/index.html">Yiwen Zhang</a>
+          <a class="page-link" href="/">Yiwen Zhang</a>
         
-          <a class="page-link" href="/software.html">Software</a>
+          <a class="page-link" href="/software/">Software</a>
         
-          <a class="page-link" href="/teaching.html">Talks and Lectures</a>
+          <a class="page-link" href="/teaching/">Talks and Lectures</a>
         
       </div>
     </nav>
@@ -61,7 +61,7 @@
 
 
 <div id="post">
-  <h1><a href="/2014/08/12/PythonLogging.html" title="Pythonlogging">Pythonlogging</a></h1>
+  <h1><a href="/2014/08/12/PythonLogging/" title="Pythonlogging">Pythonlogging</a></h1>
 
   
     <span class="published_on">
@@ -75,16 +75,38 @@
    
 
   <p>﻿—
-title: “Have Fun with Logging”
 layout: post
-tags:
+title: Have Fun with Logging
+tags: 
 - python
 —</p>
 
+<p>In python, the imported module is self-contained.  The logger called in the imported module will only be available in that module. </p>
+
+<p>Self-defined logger:</p>
+
+<div class="highlight"><pre><code class="language-python" data-lang="python">import logging
+
+logger= logging.getLogger(&#39;a&#39;)
+logger.propagate = False
+logger.setLevel(logging.DEBUG)
+formatter = logging.Formatter(&#39;%(asctime)s - %(levelname)s - %(funcName)s.%(lineno)d %(message)s&#39;)
+ch = logging.StreamHandler()
+ch.setFormatter(formatter)
+ch.setLevel(logging.DEBUG)
+logger.addHandler(ch)</code></pre></div>
+
+<p>Cautious! Running this snip more than once, it will add handlers to the logger.  As a result, calling the logger will print multiple logging messages.  </p>
+
+<p>Loggers are different from print.  It need the string type.  In that sense, loggers are more like sprintf.  This would not run without that %s. </p>
+
+<div class="highlight"><pre><code class="language-python" data-lang="python">logger.debug(&#39;- Fitting for pixel: %s&#39;, pix)</code></pre></div>
+
+
 
   <div class="post-footer">
-    <a href="/2014/08/12/PythonLogging.html" title="Pythonlogging">permalink</a> |
-    <a href="/2014/08/12/PythonLogging.html/#comments" title="Pythonlogging -- Comments">comments</a> |
+    <a href="/2014/08/12/PythonLogging/" title="Pythonlogging">permalink</a> |
+    <a href="/2014/08/12/PythonLogging//#comments" title="Pythonlogging -- Comments">comments</a> |
     <a href="http://Hua-Zhou.github.io" title="Yiwen Zhang - Recording">subscribe</a>
   </div>
 </div>
@@ -92,7 +114,7 @@ tags:
 <div id="archive">
   <h1><a name="archive" href="#archive" title="Blog Archive">Archive</a></h1>
 
-  <p>Now that you've whetted your appetite with the <a href="/2014/08/12/PythonLogging.html" title="Pythonlogging">most recent post</a>, perhaps you'd care to dig into the archive.</p>
+  <p>Now that you've whetted your appetite with the <a href="/2014/08/12/PythonLogging/" title="Pythonlogging">most recent post</a>, perhaps you'd care to dig into the archive.</p>
 
   <ul class="posts">
     
@@ -107,12 +129,12 @@ tags:
 
   <div class="wrap">
 
-    <h2 class="footer-heading"></h2>
+    <h2 class="footer-heading">Yiwen Zhang</h2>
 
     <div class="footer-col-1 column">
       <ul>
-        <li></li>
-        <li><a href="mailto:"></a></li>
+        <li>Yiwen Zhang</li>
+        <li><a href="mailto:zhangyiwen1015@gmail.com">zhangyiwen1015@gmail.com</a></li>
       </ul>
     </div>
 

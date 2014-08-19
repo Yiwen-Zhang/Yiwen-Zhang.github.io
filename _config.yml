@@ -1,1 +1,7 @@
 url: "http://yiwen-zhang.github.io/"
+author: Yiwen Zhang
+title: Yiwen Zhang
+email: zhangyiwen1015@gmail.com
+permalink: pretty
+highlighter: true
+markdown: kramdown

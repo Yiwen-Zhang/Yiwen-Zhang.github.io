@@ -1,26 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
+    <title>Yiwen Zhang</title>
     <description></description>
     <link>http://yiwen-zhang.github.io//</link>
     <atom:link href="http://yiwen-zhang.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 12 Aug 2014 23:47:25 -0400</pubDate>
-    <lastBuildDate>Tue, 12 Aug 2014 23:47:25 -0400</lastBuildDate>
+    <pubDate>Tue, 19 Aug 2014 00:09:09 -0400</pubDate>
+    <lastBuildDate>Tue, 19 Aug 2014 00:09:09 -0400</lastBuildDate>
     <generator>Jekyll v2.1.1</generator>
     
       <item>
         <title>Pythonlogging</title>
         <description>&lt;p&gt;﻿—
-title: “Have Fun with Logging”
 layout: post
-tags:
+title: Have Fun with Logging
+tags: 
 - python
 —&lt;/p&gt;
+
+&lt;p&gt;In python, the imported module is self-contained.  The logger called in the imported module will only be available in that module. &lt;/p&gt;
+
+&lt;p&gt;Self-defined logger:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;import logging
+
+logger= logging.getLogger(&amp;#39;a&amp;#39;)
+logger.propagate = False
+logger.setLevel(logging.DEBUG)
+formatter = logging.Formatter(&amp;#39;%(asctime)s - %(levelname)s - %(funcName)s.%(lineno)d %(message)s&amp;#39;)
+ch = logging.StreamHandler()
+ch.setFormatter(formatter)
+ch.setLevel(logging.DEBUG)
+logger.addHandler(ch)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Cautious! Running this snip more than once, it will add handlers to the logger.  As a result, calling the logger will print multiple logging messages.  &lt;/p&gt;
+
+&lt;p&gt;Loggers are different from print.  It need the string type.  In that sense, loggers are more like sprintf.  This would not run without that %s. &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;logger.debug(&amp;#39;- Fitting for pixel: %s&amp;#39;, pix)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 </description>
         <pubDate>Tue, 12 Aug 2014 00:00:00 -0400</pubDate>
-        <link>http://yiwen-zhang.github.io//2014/08/12/PythonLogging.html</link>
-        <guid isPermaLink="true">http://yiwen-zhang.github.io//2014/08/12/PythonLogging.html</guid>
+        <link>http://yiwen-zhang.github.io//2014/08/12/PythonLogging/</link>
+        <guid isPermaLink="true">http://yiwen-zhang.github.io//2014/08/12/PythonLogging/</guid>
         
         
       </item>
