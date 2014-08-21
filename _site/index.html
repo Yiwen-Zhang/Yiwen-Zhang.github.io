@@ -1,95 +1,299 @@
-<!DOCTYPE html>
-<html>
-
+<!DOCTYPE HTML>
+<html lang="en" prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Yiwen Zhang</title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="">
-    <link rel="canonical" href="http://yiwen-zhang.github.io//">
+    <title> Yiwen Zhang </title>
+	<meta property="og:image" content="/res/title.png" />
+    
+	<link href='http://fonts.googleapis.com/css?family=Poly:400,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" media="screen, projection" href="/res/screen.css" type="text/css">
+    <link rel="stylesheet" media="print" href="/res/print.css" type="text/css">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/main.css">
-
-</head>
-
-
-    <body>
-
-    <header class="site-header">
-
-  <div class="wrap">
-
-    <a class="site-title" href="/">Yiwen Zhang</a>
-
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-           viewBox="0 0 18 15" enable-background="new 0 0 18 15" xml:space="preserve">
-          <path fill="#505050" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0
-            h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#505050" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484
-            h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#505050" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0
-            c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
-      <div class="trigger">
-        
-          <a class="page-link" href="/blog/">Yiwen-Zhang.github.io/blog</a>
-        
-          
-        
-          <a class="page-link" href="/">Yiwen Zhang</a>
-        
-          <a class="page-link" href="/software/">Software</a>
-        
-          <a class="page-link" href="/teaching/">Talks and Lectures</a>
-        
-      </div>
-    </nav>
-
-  </div>
-
-</header>
-
-
-    <div class="page-content">
-      <div class="wrap">
-      <p>I am … I am a rather complex creature that I find it hard to describe in a few words.  I am a sensible person that many thoughts go through my mind and I want to put them down, for sharing and for clearing them up. </p>
-
-      </div>
-    </div>
-
-    <footer class="site-footer">
-
-  <div class="wrap">
-
-    <h2 class="footer-heading">Yiwen Zhang</h2>
-
-    <div class="footer-col-1 column">
-      <ul>
-        <li>Yiwen Zhang</li>
-        <li><a href="mailto:zhangyiwen1015@gmail.com">zhangyiwen1015@gmail.com</a></li>
+    
+	
+	<!--script>
+    <meta property="fb:admins" content="728642302">
+    <meta property="fb:app_id" content="38027689216">
+	
+    
+    
+		
+    
+    <meta property="og:url" content="http://yiwen-zhang.github.io/">
+    <meta property="og:site_name" content="yiwen-zhang.github.io">
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="en_GB" />
+    
+    
+    <script>
+  //html { zoom:50%; }
+  if (window.addEventListener) {
+    var sidebarAdjustTimer;
+    function updateOrientation(orientationChangeEvent) {
+      if (sidebarAdjustTimer) clearInterval(sidebarAdjustTimer);
+      //console.log('window.orientation -> '+window.orientation);
+      if (window.orientation === -90 || window.orientation === 90) {
+        // landscape
+        var sidebar = document.getElementById('sidebar');
+        if (!sidebar.src || sidebar.src === '') {
+          sidebar.src = '/archive/sidebar.html';
+        }
+        sidebarAdjustTimer = setInterval(function() {
+          var height = Math.round(document.height * 1.6);
+          if (sidebar.height != height) {
+            sidebar.height = height;
+            sidebar.style.height = height + 'px';
+          }
+        },500);
+      } else {
+        // portrait
+      }
+    }
+    window.addEventListener('orientationchange', updateOrientation);
+    document.addEventListener('DOMSubtreeModified', function(ev) {
+      if (document.getElementById('sidebar')) {
+        document.removeEventListener('DOMSubtreeModified', arguments.callee);
+        updateOrientation();
+      }
+    });
+  }
+</script>
+    
+	</script-->	
+  </head>
+  
+  <body>
+    <!--script>/*
+      var s;
+      if (document.location.hostname === 'rsms.me') {
+        s = document.createElement('script');
+        s.async = true;
+        s.src = "http://connect.facebook.net/en_US/all.js#appId=38027689216&xfbml=1";
+        document.getElementsByTagName('head')[0].appendChild(s);
+      }
+      
+      if (window.navigator.userAgent.indexOf('iPad') != -1) {
+        document.documentElement.className = 'ios ipad';
+        window.rsmsHostIsIOS = 'ipad';
+      } else if (window.navigator.userAgent.indexOf('iPhone') != -1) {
+        document.documentElement.className = 'ios iphone';
+        window.rsmsHostIsIOS = 'iphone';
+      }
+    */</script>
+    <div id="fb-root"></div><script></script-->
+    <iframe id="sidebar"></iframe>
+    <header>
+		<!--script>
+		<h1 class="logo" onclick="document.location.href='/';"><a href="/"><img src="/res/IMG_0140.jpg" width="160" height="90" alt="Signature"></a></h1>
+		</script-->
+      <ul class="navigation">
+		<li><a href="/software/" title="The projects I worked on">Software</a></li>
+        <li><a href="/talks/" title="Talks ">Talks</a></li>
+        <li><a href="/random/" title="On the road">Random</a></li>
+        <li><a href="/about/">About me</a></li>
       </ul>
-    </div>
-
-    <div class="footer-col-2 column">
-      <ul>
+    </header>
+    <!--div class="wrapper content"-->
+      <!-- <div class="content full-bleed intro">
+  Welcome to my homepage!!1
+</div> -->
+<div class="posts">
+  <div class="content full-bleed" id="recent-posts">
+  <a
+    href="/2014/08/12/Python-datetime64.html" class="post-excerpt">
+      <div class="padded-content">
+        <div class="title">Have Fun with Timestamp</div>
+      
+        <!-- <div class="title">Have Fun with Timestamp</div> -->
+        <info datetime="">
+          Aug 2014
+        </info>
         
+        <span class="body">Pandas time stamp uses the NumPy datetime64 dtype.
+
+</span>
         
-      </ul>
-    </div>
+      <!-- post.photo_url -->
+      </div>
+    </a><a
+    href="/2014/08/12/Python-Logging.html" class="post-excerpt">
+      <div class="padded-content">
+        <div class="title">Python Logging</div>
+      
+        <!-- <div class="title">Python Logging</div> -->
+        <info datetime="">
+          Aug 2014
+        </info>
+        
+        <span class="body">﻿—
+layout: post
+title: Have Fun with Logging
+—
 
-    <div class="footer-col-3 column">
-      <p class="text"></p>
+</span>
+        
+      <!-- post.photo_url -->
+      </div>
+    </a>
+    <div class="breaker"></div>
+    <div class="end">
+      <a href="/archive/">More...</a>
     </div>
-
   </div>
+</div>
+<script type="text/javascript">
+(function(f){
+  var onload = function(f) {
+    if (window.addEventListener) {
+      window.addEventListener('DOMContentLoaded', f, false);
+    } else {
+      window.attachEvent('onload', f);
+    }
+  };
+  onload(function(){
+    f();
+    if (window.addEventListener) {
+      window.addEventListener('resize', f, false);
+    } else {
+      window.attachEvent('resize', f);
+    }
+  });
+})(function(){
+  var winw = window.innerWidth, w; //, width_thresholds = [680, 780];
+  w = window.__post_grid_width;
 
-</footer>
+  if ( (w !== undefined) &&
+       ( (w === 680 && winw < 680) ||
+         (w === 780 && winw >= 680 && winw < 780) ||
+         (w === 10000 && winw >= 780)
+       )
+     )
+  {
+    // console.log('noop w:', w+ ', winw:', winw);
+    return;
+  } else {
+    window.__post_grid_width = w =
+      winw > 780 ? 10000 :
+      winw > 680 ? 780 :
+                   680;
+    // console.log('op w:', w);
+  }
 
+  var posts = document.getElementById('recent-posts');
+  var child_nodes = posts.childNodes, k, node, h,
+      col_width, col0_y, col1_y, col1_x,
+      origin = {x:0, y:0}, node_count = 0, is_col0, row0_max_y;
 
-    </body>
+  posts.style.position = (window.__post_grid_width <= 680) ? null : 'relative';
+
+  for (k in child_nodes) {
+    node = child_nodes[k];
+    if (node.nodeType === Node.ELEMENT_NODE) {
+      if (node.className === 'breaker') {
+        if (window.__post_grid_width <= 680) {
+          node.style.height = null;
+        } else {
+          node.style.height = (Math.max(col0_y, col1_y) - row0_max_y) + 'px';
+        }
+        break;
+      }
+      if (col0_y === undefined) {
+        origin.x = node.offsetLeft;
+        origin.y = node.offsetTop;
+        col_width = node.clientWidth;
+        col0_y = origin.y + node.clientHeight;
+        row0_max_y = col0_y;
+      } else {
+        if (col1_y === undefined) {
+          col1_y = origin.y + node.clientHeight;
+          col1_x = origin.x + node.clientWidth;
+          if (col1_y > row0_max_y) {
+            row0_max_y = col1_y;
+          }
+        } else {
+          if (window.__post_grid_width <= 680) {
+            // console.log('Clear');
+            node.style.position = null;
+            node.style.width = null;
+            node.style.left = null;
+            node.style.top = null;
+          } else {
+            is_col0 = (node_count % 2) === 0;
+            node.style.position = 'absolute';
+            node.style.width = col_width + 'px';
+            if (is_col0) {
+              node.style.left = origin.x + 'px';
+              node.style.top = col0_y + 'px';
+              col0_y += node.clientHeight;
+            } else {
+              node.style.left = col1_x + 'px';
+              node.style.top = col1_y + 'px';
+              col1_y += node.clientHeight;
+            }
+          }
+          // console.dir(node);
+        }
+      }
+      ++node_count;
+    }
+  }
+
+});
+</script>
+
+    <!--/div-->
+    
+    
+    
+    
+    
+    
+    <footer>
+      <p>
+        <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US" class="cc"><img src="/res/cc-cc.png" class="cc">
+        <img src="/res/cc-by.png" class="cc"></a>
+        This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons License</a>
+      </p>
+    </footer>
+    
+    
+    <script>
+  // curry pre < code to be able to get prettified
+  // If the first line is
+  //   #!-langname\n
+  // Then that line is removed from the code and "langname" is given to prettify.
+  // If "langname" is "none", that prettify is not applied at all.
+  var n,i,L,cn,lang,v = document.getElementsByTagName('pre');
+  var m,lang_re = /^#\!-([a-zA-Z0-9_-]+)\n/;
+  for (i=0,L=v.length;i<L;++i) {
+    n = v.item(i);
+    if ((cn = n.firstChild) && cn.nodeName == 'CODE') {
+      lang = null;
+      if (cn.firstChild.nodeType === Node.TEXT_NODE) {
+        m = lang_re.exec(cn.firstChild.nodeValue);
+        if (m) {
+          lang = m[1].toLowerCase();
+          cn.firstChild.nodeValue = cn.firstChild.nodeValue.substr(m[0].length);
+          if (lang === 'none') {
+            continue;
+          }
+        }
+      }
+      n.setAttribute('class', 'prettyprint'+(lang ? ' lang-' + lang : ''));
+    }
+  }
+</script>
+<script async src="/res/prettify.js"></script>
+
+    <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-9078556-2']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+  </body>
 </html>
