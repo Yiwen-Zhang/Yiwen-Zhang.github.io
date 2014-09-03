@@ -1,5 +1,6 @@
 ---
 layout: post
+photo_url: "/images/swirl.JPG"
 title: Becoming A Data Scientist
 tag:
 - thoughts

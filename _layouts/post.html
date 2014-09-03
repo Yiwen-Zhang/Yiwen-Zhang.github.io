@@ -9,6 +9,10 @@ layout: default
       {{ page.date | date: "%b %d, %Y" }}
     </info>
     {% endunless %}
+	<h1>{{ page.title }}</h1>
+    <info datetime="{{ page.date | date: "%Y-%m-%d" }}">
+      {{ page.date | date: "%b %d, %Y" }}
+    </info>
     <div class="body">{{ content }}</div>
     <!-- <div class="breaker"></div> -->
     <div class="breaker"></div>
