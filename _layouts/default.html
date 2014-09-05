@@ -71,10 +71,12 @@
     <header>
 		<h1 class="logo" onclick="document.location.href='/';"><a href="/"><img src="/res/Signature.JPG" width="150" height="70" alt="Yiwen Zhang"></a></h1>
       <ul class="navigation">
+		<li><a href="/index.html" title="Home">Home</a></li>
 		<li><a href="/software/"{% if page.url contains "/software/" %}class="active"{% endif %} title="The projects I worked on">Software</a></li>
         <li><a href="/talks/"{% if page.url contains "/talks/" %}class="active"{% endif %} title="Talks ">Talks</a></li>
         <li><a href="/random/"{% if page.url contains "/random/" %}class="active"{% endif %} title="On the road">Random</a></li>
-        <li><a href="/about/"{% if page.url contains "/about/" %}class="active"{% endif %}>About me</a></li>
+		<li><a href="/archive/"{% if page.url contains "/archive/" %}class="active"{% endif %} title="Blog Archive">Archive</a></li>
+        <li><a href="/about/"{% if page.url contains "/about/" %}class="active"{% endif %}title="About me">About me</a></li>
       </ul>
     </header>
     <!--div class="wrapper content"-->
