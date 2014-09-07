@@ -6,7 +6,9 @@ layout: default
 </div> -->
 <div class="posts">
   <div class="content full-bleed" id="recent-posts">
-  {% for post in site.posts limit:4 %}<a
+  {% for post in site.posts limit:25 %}
+  {% if post.tag != "section" %}
+	<a
     href="{{ post.url }}" class="post-excerpt{% if post.photo_url %} photo{% endif %}">
       <div class="padded-content">
         <div class="title">{{ post.title }}</div>
@@ -23,8 +25,10 @@ layout: default
         <span class="body">{{ post.excerpt | strip_html }}</span>
         {% endif %}
       {% endif %}<!-- post.photo_url -->
-      </div>
-    </a>{% endfor %}
+      </div>  
+    </a>
+	{% endif %}
+	{% endfor %}
     <div class="breaker"></div>
     <!-- <div class="end">
       <a href="/archive/">More...</a>

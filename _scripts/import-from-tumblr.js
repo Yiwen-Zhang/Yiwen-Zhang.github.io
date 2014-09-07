@@ -1,5 +1,5 @@
-var HOSTNAME = 'blog.hunch.se'
-var DST_DIR = '/Users/rasmus/blog/_posts'
+var HOSTNAME = 'yiwen-zhang.github.io'
+var DST_DIR = '/Users/YiwenZ/workspace/yiwen-zhang.github.io/sections'
 var POST_LAYOUT = 'post'
 var DRY_RUN = false
 var TAGS_FILTER = function (tag) { return true; }

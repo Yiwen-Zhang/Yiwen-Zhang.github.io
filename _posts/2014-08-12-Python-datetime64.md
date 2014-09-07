@@ -10,6 +10,7 @@ Pandas time stamp uses the NumPy datetime64 dtype.
 
 Convert epoch time into timestamp:
 
+
 	pd.to_datetime(df.pixts/1000, unit='s', utc=True)
 
 Convert time into date, hour, weekdays:
