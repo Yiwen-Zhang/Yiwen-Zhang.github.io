@@ -72,7 +72,7 @@
 		<!-- <h1 class="logo" onclick="document.location.href='/';"><a href="/"><img STYLE="position:absolute; TOP:-40px; LEFT:10px"  src="/res/Signature.JPG" width="150" height="70" alt="Yiwen Zhang"></a></h1> -->
       <ul class="navigation">
 		<li><a href="/index.html" title="Home">Home</a></li>
-		<li><a href="/archive/"{% if page.url contains "/archive/" %}class="active"{% endif %} title="Blog Archive">Blog</a></li>
+		<li><a href="/blog/"{% if page.url contains "/blog/" %}class="active"{% endif %} title="Blog Archive">Blog</a></li>
 		<li><a href="/software/"{% if page.url contains "/software/" %}class="active"{% endif %} title="The projects I worked on">Software</a></li>
         <li><a href="/talks/"{% if page.url contains "/talks/" %}class="active"{% endif %} title="Talks ">Talks</a></li>
         <li><a href="/random/"{% if page.url contains "/random/" %}class="active"{% endif %} title="On the road">Random</a></li>
@@ -101,17 +101,20 @@
     </div>
     {% endif %}
     
+	<!--script>
     {% unless page.no_footer %}
     <footer>
       <p>
-		<!--script>
         <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US" class="cc"><img src="/res/cc-cc.png" class="cc">
         <img src="/res/cc-by.png" class="cc"></a>
-		</script-->
+		
+		{% if page.url contains "/blog/" %}
         The original design is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons License</a>, by <a href="http://rsms.me/about/"> Rasmus Andersson</a>.
+		{% endif %}
       </p>
     </footer>
     {% endunless %}
+	</script-->
     
     {% include prettify.html %}
     {% include analytics.html %}
