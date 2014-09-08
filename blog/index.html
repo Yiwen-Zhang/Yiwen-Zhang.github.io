@@ -30,9 +30,11 @@ layout: default
 	{% endif %}
 	{% endfor %}
     <div class="breaker"></div>
-    <!-- <div class="end">
+	{% if page.url contains "/blog/" %}
+    <div class="end">
       <a href="/archive/">More...</a>
-    </div> -->
+    </div> 
+	{% endif %}
   </div>
 </div>
 <script type="text/javascript">
