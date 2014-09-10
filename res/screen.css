@@ -45,14 +45,14 @@ p, ul, ol, pre, blockquote, hr, object { margin: 1em 0; }
 
 code, pre {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
-  color: white;
+  color: black;
   margin-bottom: 30px;
   font-size: 14px;
 }
 
 code {
-  color: white;
-  background-color: #f2f2f2;
+  color: black;
+  background-color: #ECDCFF;
   border: solid 1px #ddd;
   padding: 0 3px;
 }
@@ -209,8 +209,8 @@ div.content.photo {
     overflow-x: auto;
   }
  div.content code {
-    background-color:#f6f9fa;
-    color: white;
+    background-color: #ECDCFF;
+    color: black;
     /*border: 1px solid #eaeaea;*/
     border-radius: 3px;
     padding:0 0.3em;
