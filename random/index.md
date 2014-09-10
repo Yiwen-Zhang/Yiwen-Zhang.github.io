@@ -10,8 +10,6 @@ I love [movies](http://movie.douban.com/mine?status=collect).  Grew up in an apa
 
 Other than movies, painting and reading also lighten my life. 
 
-I love reading.  My favorite writer changes every so often.  It is Italo Calvino these days.  I love visual arts,
-        		drawing, painting, photography, films, etc.  Of course, never ever stop working out.
 
 <IMG STYLE="position:absolute; TOP:80px; LEFT:790px" height="100" src="/images/dress.JPG" />
 <IMG STYLE="position:absolute; TOP:230px; LEFT:800px" height="90" src="/images/rose.JPG" />
