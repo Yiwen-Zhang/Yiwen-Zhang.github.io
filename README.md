@@ -8,7 +8,7 @@ I use [Jekyll](http://github.com/mojombo/jekyll) to build this webpage.
 
 # License
 
-The **content** of the site (i.e., blog posts and page content) is licensed under a [Creative Commons Attribution License](http://creativecommons.org/licenses/by/3.0/us/): you may use it, but you must give attribution.
+The **content** of the site (i.e., blog posts and page content) is licensed under a [Creative Commons Attribution License](http://creativecommons.org/licenses/by/3.0/us/): you may use it, but you must give attribution.  Part of the code is from [Rasmus Andersson](http://rsms.me/about/).
 
 The **icons** are from the [IcoMoon icon set](http://icomoon.io/) and are licensed as described at [http://icomoon.io/#icons#license](http://icomoon.io/#icons#license).
 
