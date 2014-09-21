@@ -24,13 +24,16 @@ The answer to the above question comes from the data.  The ultimate goal is to g
 
 <IMG align="center" src="/images/Retargeting_default.png" />
 
-If we plot the observed probability of purchasing at each time point after the starting pixel, it is more likely that we get to observe something like the following. 
+If we plot the observed probability of purchasing at each time point after the starting pixel, we are more likely to observe something like the following. 
 
 <IMG align="center" src="/images/Retargeting_predictT.png" />
+<figcaption>Fig 2</figcaption>
 
 The proposed method is to expand the one dimensional time variable into a high dimensional non-parametric space.  The high dimension allows us to make the best of the often limited purchase cases that only happened to a small group of consumers.  Instead of guessing the pattern explicitly, increased volume in information allows using the computing resources to train the model and find out the most representative patterns.  This 'information expansion' is achieved by extending the linear space in to a Reproducing Kernel Hilbert Space (RKHS).  The real-valued funcitons inside RKHS is defined on a pre-defined domain, which, in cases of retargeting, is a bounded finite subset of real numbers.  To find a finite representative basis of the RKHS, we resort to penalty terms.  Fortunately, regularization theorems works nicely with RKHS.
 
+The above Figure 2 used 10-Order Sobolev space basis. 
 
+<IMG align="center" src="/images/Retargeting_ns.png" />
 
 
 The sketchy outline is laid out, the details needs to be fill in.  Two decisions need to be made before we can get a reasonably good representation of the purchase cycle, 
