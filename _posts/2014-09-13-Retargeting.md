@@ -49,7 +49,8 @@ From the numerical stand point, all of these three basis are superior to the pol
 - Penalty terms:
 	- $$L_1$$ penalty
 	- $$L_2$$ penalty
-  
+ 
+Here is a small [simulation](retargetingSim.py) about the above ideas. 
 
 ### Subgroups of the audience
 

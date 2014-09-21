@@ -19,4 +19,3 @@ The **structure, design, and layout** of the site are licensed under the [MIT Li
 # Dependencies
 
 * [Jekyll](http://wiki.github.com/mojombo/jekyll/install)
-* [Pygments](http://wiki.github.com/mojombo/jekyll/install)
