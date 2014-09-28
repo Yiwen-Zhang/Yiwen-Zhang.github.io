@@ -38,6 +38,8 @@ R, the language I've been using for 4 years, from an absolutely beginner, to a p
 
 #### _Intrisic Reassurance_
 
+<IMG height="200" align="right" src="/images/saks.jpg" />
+
 I am waiting for a friend in Saks Fifth Avenue.  This is my very first trip to this famous store, the wonderland for many girls.  My friend is shopping skin care products and makeups for her mom and herself.  The place is like a zoo.  The sales agents are watching me and I am watching them.  Sometimes they approach me with products with nice scent.  I do not mind having a nice looking sales agent talking to me, but I have no intention buying anything anyways.  Not that I can not afford them, but I sincerely dislike what they are selling, the packaging, the notion that you look better, and, most importantly, the vanity of telling other people about it.  After about two hours, I told her I need to wait for her in a coffee shop, and ask her to call me when she is done. 
 
 I know that materials can not bring happiness, although I used to occasionally admire girls with nice handbags.  I came to the store with her, thinking that even though I am not buying anything, I can enjoy looking at them.  However, it shocked me that this remindes me how far materials are from truly happiness.  They are like two opposite ends of two parallel lines.  The book 'Reality is Broken' says,
@@ -50,7 +52,7 @@ The warm person I met, regardless of external life circumstances like salary or 
 
 you have to participate relentlessly in the manifestations of your own blessings. 
 
-<IMG height="200" align="right" src="/images/saks.jpg" />
+
 
 
 
