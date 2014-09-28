@@ -6,7 +6,7 @@ tag:
 ---
 
 
-##### _In the post office_
+##### _In The Post Office_
 
 In a young city like Raleigh, I barely see an old post office like this. The one storey building with a parking lot barely big enough for 7 cars, sits right next to the railway.  Unlike other post offices, there is a striking sign on the door, saying the services they can not provide here.  I walk in with the box of protein powder my friend ordered on the internet.  It was too expensive to order them from Australia, he said.  The inner decoration and furniture match perfectly with the facade: an air-conditioner hanging on the window helps block a big proportion of the sunshine, the rest is blocked with the blinds; the partition wall is replaced by a big cabinet about 6 foot tall, with many small drawers; the drawers have paper labels, most of which are half outside the label slot, and have curling edges. The entire storage room is at most as big as my living room.  Things piled up everywhere.  There are three people working there.  Two African American ladies are taking care of the customers, while an African American guy seems taking charge of the packages.  The line was not very long, and the lady helped me almost immediately.  The white root of her hair and the senile plaques tells me that she is not young.  The environment and the nature of the job makes me believe that she might not be super happy.  I might not want such a job when I am at this age, I tell myself.  It takes me quite some effort to lift the 23 pound box onto the tall counter, which is kinda tall for a 5 foot 2 girl.  
 
